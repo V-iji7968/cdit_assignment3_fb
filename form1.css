@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    color: chocolate;
 }
 
 h2{
@@ -18,4 +19,25 @@ input[id="name"]
 }
 body{
     background-color: antiquewhite;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: lightgrey;}
+    to {background-color: lightcyan;}
+  }
+  @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+img#animated-image {
+    width: 200px;
+    height: 200px;
+    animation: spin 10s linear infinite;  
 }
