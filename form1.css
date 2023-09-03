@@ -21,6 +21,8 @@ body{
     background-color: antiquewhite;
     animation-name: example;
     animation-duration: 4s;
+    /* background-image: url(pic123.png); */
+ 
 }
 @keyframes example {
     from {background-color: lightgrey;}
@@ -40,4 +42,12 @@ img#animated-image {
     width: 200px;
     height: 200px;
     animation: spin 10s linear infinite;  
+    animation-delay: 1s;
+   
+
+}
+
+#x
+{
+    text-align: center;
 }
